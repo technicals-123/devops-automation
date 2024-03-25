@@ -24,7 +24,7 @@ pipeline {
                    sh 'docker login -u saumyaranjan16 -p ${dockerhubpwd}'
 
 }
-                   sh 'docker push javatechie/devops-integration'
+                   sh 'docker push saumyaranjan16/devops-integration'
                 }
             }
         }
